@@ -1,0 +1,19 @@
+{
+    "name": "1app",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+      "build": "turbo run build"
+    },
+    "dependencies": {
+      "prettier": "^3.9.6",
+      "prettier-plugin-packagejson": "^3.0.2"
+    },
+    "devDependencies": {
+      "turbo": "^2.5.4"
+    },
+    "packageManager": "pnpm@11.15.1",
+    "engines": {
+      "node": ">=24.0.0"
+    }
+  }

@@ -1,0 +1,8 @@
+node_modules/
+build/
+dist/
+.turbo/
+.wp-env/
+.pnpm-store/
+*.log
+.DS_Store

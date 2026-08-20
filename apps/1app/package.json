@@ -1,0 +1,15 @@
+{
+    "name": "@1app/1app",
+    "version": "1.0.0",
+    "private": true,
+    "description": "1App — WordPress plugin with a single workspace app shell",
+    "type": "module",
+    "scripts": {
+      "build": "pnpm sync",
+      "sync": "node scripts/plugin-sync.mjs",
+      "sync:watch": "node scripts/plugin-sync.mjs --watch"
+    },
+    "engines": {
+      "node": ">=24.0.0"
+    }
+  }
